@@ -13,7 +13,8 @@ namespace Challange
 	virtual T doChallange(const char* fmt, ...)
 	{
 		std::cout << "Base class" << std::endl;
-		return 0;
+		T return_value{};
+		return return_value;
 	}
 
 	private:
