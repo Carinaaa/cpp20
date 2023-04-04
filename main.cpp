@@ -1,7 +1,7 @@
 #include "Day1.h"
 #include "Day2.h"
 #include "Day3.h"
-
+#include "Day4.h"
 
 int main()
 {
@@ -24,10 +24,10 @@ int main()
 	std::cout << std::endl;
 
 	std::cout << std::endl;
-	Challange::Day3<std::unordered_set<int>> day3;
+	Challange::Day3<std::vector<int>> day3;
 	std::vector<int> A{1,2,3};
 	std::vector<int> B{ 2, 3, 4 };
-	std::unordered_set<int> result3 = day3.doChallange("a", A, B);
+	std::vector<int> result3 = day3.doChallange("a", A, B);
 	std::cout << std::endl;
 	std::cout << "Semantic difference : ";
 	for (auto i : result3) {
@@ -35,6 +35,7 @@ int main()
 	}
 	std::cout << std::endl;
 
-
+	constexpr std::uint32_t fact5 = factorial<5U>::value;
+	std::cout << "Factorial 5 = " << fact5 << std::endl;
 	return 0;
 }
