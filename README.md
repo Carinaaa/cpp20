@@ -8,6 +8,7 @@ This personal project started on 27.03.2023 with previous experience in coding.
 
 ## Scope
 The scope of this project is to keep a consistent learning schedule for myself and keep track of the new concepts in C++.
+Some of the challange ideas are from [freeCodeCamp.org](https://www.freecodecamp.org/learn/coding-interview-prep)
 
 ## Objectives
 - [ ]  reach at least 30 days challanges
